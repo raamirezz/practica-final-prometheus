@@ -145,7 +145,7 @@
             "uid": "aei8b39q1gmpsc"
           },
           "editorMode": "code",
-          "expr": "sum(demo_num_cpus)",
+          "expr": "count(count(node_cpu_seconds_total) by (cpu))",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
@@ -162,12 +162,12 @@
     "list": []
   },
   "time": {
-    "from": "now-6h",
-    "to": "now"
+    "from": "2025-04-08T16:12:22.304Z",
+    "to": "2025-04-09T16:12:22.304Z"
   },
   "timepicker": {},
   "timezone": "browser",
   "title": "Recursos del sistema",
   "uid": "fei8bejtkopogd",
-  "version": 3
+  "version": 4
 }
